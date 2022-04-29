@@ -8,6 +8,6 @@ public class BlueCircle extends Circle {
 
     public void draw() {
         System.out.println("Dentro de Circulo " + getColor() 
-                + " de raio " + getRay() + " no método draw()");
+                + " de raio " + getRadius() + " no método draw()");
     }
 }

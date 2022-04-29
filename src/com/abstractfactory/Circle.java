@@ -2,18 +2,18 @@ package com.abstractfactory;
 
 public abstract class Circle extends Shape {
 
-    private float ray;
+    private float radius;
 
-    public Circle(float ray, String color) {
+    public Circle(float radius, String color) {
         super(color);
-        this.ray = ray;
+        this.radius = radius;
     }
 
-    public float getRay() {
-        return ray;
+    public float getRadius() {
+        return radius;
     }
 
-    public void setRay(float ray) {
-        this.ray = ray;
+    public void setRadius(float radius) {
+        this.radius = radius;
     }
 }
