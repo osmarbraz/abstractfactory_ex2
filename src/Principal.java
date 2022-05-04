@@ -24,7 +24,7 @@ public class Principal {
         //Pega um objeto quadrado
         Shape shape3 = shapeBlueFactory.getSquare(3);
 
-        //Chama o método draw do retângulo
+        //Chama o método draw do quadrado
         shape3.draw();
 
         //Cria a fábrica de métodos para shape red
@@ -42,10 +42,10 @@ public class Principal {
         //Chama o método draw do retângulo
         shape5.draw();
 
-        //Pega um objeto triângulo
+        //Pega um objeto quadrado
         Shape shape6 = shapeRedFactory.getSquare(6);
 
-        //Chama o método draw do retângulo
+        //Chama o método draw do quadrado
         shape6.draw();
     }
 }
