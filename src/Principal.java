@@ -21,7 +21,7 @@ public class Principal {
         //Chama o método draw do retângulo
         shape2.draw();
 
-        //Pega um objeto triângulo
+        //Pega um objeto quadrado
         Shape shape3 = shapeBlueFactory.getSquare(3);
 
         //Chama o método draw do retângulo

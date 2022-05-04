@@ -1,4 +1,4 @@
-package com.abstractfactory;
+ package com.abstractfactory;
 
 public class RedSquare extends Square {
 
